@@ -15,7 +15,7 @@ xhr.open("GET", "https://api.github.com/users/shubhamgiri70");
 xhr.onload = function () {
   if (xhr.status === 200) {
     // Parse the response as JSON
-    let data = JSON.parse(xhr.response);
+    let data = JSON.parse(JSON.parse(xhr.response), xhr);
     // Update the UI with the user's profile information
     profileImg.setAttribute("src", data.avatar_url);
     h3.innerText = data.name;
@@ -62,13 +62,3 @@ function xhrFollowingHandle(followingUrl) {
   };
   xhr3.send();
 }
-
-// vyPPnIwls6EN1dl7vdIRrzb8vWMc0pA90UxI2Jzpimw
-// https://api.unsplash.com/
-// let fol = new XMLHttpRequest()
-// undefined
-// fol.open('GET','https://api.github.com/users/shubhamgiri70/following')
-// undefined
-// fol.send()
-// undefined
-// let d = JSON.parse(fol.response)

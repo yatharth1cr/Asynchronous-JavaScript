@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+
+  align-items: center;
+}
+img {
+  object-fit: cover;
+  border: 0.5rem solid black;
+  width: 200px;
+  height: 200px;
+}
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: orange;
+  width: 150px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
