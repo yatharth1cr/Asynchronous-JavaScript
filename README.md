@@ -6,7 +6,8 @@
 ### 3. Making Network Request
 - Assignment: Making Network Request
 - Assignment: Fetching Data
-- Assiignment: ImageGeneratorApp
+- Assignment: ImageGeneratorApp
 ### 4. Understanding Promises
+- Assignment: Promises
 ### 5. More About Promises
 ### 6. Assignment Level 2 & 3 
