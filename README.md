@@ -10,5 +10,6 @@
 ## 4. Understanding Promises
 - Assignment: Promises
 - Assignment: Fetch
+- Assignment: createCards
 ## 5. More About Promises
 ## 6. Assignment Level 2 & 3 
