@@ -1,0 +1,55 @@
+body {
+  font-family: cursive;
+  background-color: beige;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+select {
+  width: 400px;
+  padding: 1rem 0rem;
+  text-align: center;
+  margin: 1rem auto; /* Adjust margin to auto to center horizontally */
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.news-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+
+  background-color: #fff;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  margin-right: 2rem;
+  object-fit: cover;
+}
+
+h2 {
+  background-color: crimson;
+  color: wheat;
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+}
