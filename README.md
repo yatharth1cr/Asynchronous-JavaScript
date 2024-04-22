@@ -12,4 +12,5 @@
 - Assignment: Fetch
 - Assignment: createCards
 ## 5. More About Promises
+- Assignment: HandlingErrors
 ## 6. Assignment Level 2 & 3 
