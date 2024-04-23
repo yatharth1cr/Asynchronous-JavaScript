@@ -1,30 +1,30 @@
 // - Create four promises that resolves after 1, 2, 3 and 4 seconds with a random value. Using `Promise.all` log the value of each promises that it resolved with.
 
-const one = new Promise((res, rej) => {
-  setTimeout(() => res(1), 1000);
-});
-const two = new Promise((res, rej) => {
-  setTimeout(() => res(2), 2000);
-});
-const three = new Promise((res, rej) => {
-  setTimeout(() => res(3), 3000);
-});
-const four = new Promise((res, rej) => {
-  setTimeout(() => res(4), 4000);
-});
+// const one = new Promise((res, rej) => {
+//   setTimeout(() => res(1), 1000);
+// });
+// const two = new Promise((res, rej) => {
+//   setTimeout(() => res(2), 2000);
+// });
+// const three = new Promise((res, rej) => {
+//   setTimeout(() => res(3), 3000);
+// });
+// const four = new Promise((res, rej) => {
+//   setTimeout(() => res(4), 4000);
+// });
 
-let allPromise = Promise.all([one, two, three, four])
-  .then((value) => {
-    console.log(value);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
-console.log(allPromise);
+// let allPromise = Promise.all([one, two, three, four])
+//   .then((value) => {
+//     console.log(value);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+// console.log(allPromise);
 
 // - Create a list of 5 github usernames in an array and using `Promise.all` get access to the data of each user from github api. Log the number of followes of each users.
 
-const accessToken = "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";
+// const accessToken = "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";
 
 let githubUsername = [
   "yatharth1cr",

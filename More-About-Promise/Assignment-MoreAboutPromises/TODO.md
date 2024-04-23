@@ -27,7 +27,7 @@ console.log(allPromise);
 - Create a list of 5 github usernames in an array and using `Promise.all` get access to the data of each user from github api. Log the number of followes of each users.
 
 ```js
-const accessToken = "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";
+// const accessToken = "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";
 
 let githubUsername = [
   "yatharth1cr",
