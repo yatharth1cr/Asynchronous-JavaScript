@@ -13,4 +13,5 @@
 - Assignment: createCards
 ## 5. More About Promises
 - Assignment: HandlingErrors
+- Assignment: MoreAboutPromises
 ## 6. Assignment Level 2 & 3 
