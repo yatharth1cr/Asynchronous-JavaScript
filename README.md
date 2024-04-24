@@ -14,4 +14,5 @@
 ## 5. More About Promises
 - Assignment: HandlingErrors
 - Assignment: MoreAboutPromises
+- Assignment: Fetch Error
 ## 6. Assignment Level 2 & 3 
