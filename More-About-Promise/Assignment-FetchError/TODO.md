@@ -158,9 +158,3 @@ Promise.race([promise1, promise2])
 > ANSWER:
 >
 > - when Promise will not throw an error then we will use if and else condition to throw an error
-
-#### How do you handle the error while fetching data from a route that is not available.
-
-```js
-
-```
