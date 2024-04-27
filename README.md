@@ -17,3 +17,4 @@
 - Assignment: Fetch Error
 ### 6. Assignment Level 2 & 3
 - Assignment: Promises
+- Assignment: GOTBooksApp
